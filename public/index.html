@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja apka WWW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PSI MOBILNE</h1>
+    <div class="podglad">
+        Podglą odpowiedzi obiektu:<br /><b id="odpowiedz">123</b><br />
+    <canvas id="smoothie-chart" width="325" height="125"></canvas>
+    </div>
+    <div class="kontrola">
+        Zadana:<br /><input type="number" value="0" id="zadana" /><br />
+        kp:<br /><input type="number" value="1" id="kp" /><br />
+        Ti:<br /><input type="number" value="1" id="Ti" /><br />
+        Td:<br /><input type="number" value="0" id="Td" /><br />
+        <br /><input type="button" value="Aktualizuj" id="wyslij"><br />
+
+    </div>
+    <div class="stopka"> 
+        Autor strony: Oleksandr Burkotenko
+    </div>
+
+    <script src="http://smoothiecharts.org/smoothie.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
